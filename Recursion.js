@@ -32,11 +32,6 @@ function flatten(arr) {
   return flatArray;
 }
 
-function factoriel(num) {
-  if (num === 1) return 1;
-  return num * factoriel(num - 1);
-}
-
 function flatten(oldArr) {
   var newArr = [];
   for (var i = 0; i < oldArr.length; i++) {
